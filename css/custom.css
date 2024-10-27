@@ -1,0 +1,79 @@
+/* Body text */
+.md-content {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;  /* Adjust as needed */
+  line-height: 1.6; /* Improves readability */
+}
+
+/* Increase font size for main content with specificity and !important */
+.md-content, .md-content * {
+  font-size: 18px !important; /* Larger font size for better readability */
+  line-height: 1.7 !important; /* Ensure line spacing applies */
+}
+
+/* Headings */
+
+/* Main Title in Steel Blue */
+.md-content h1, .md-typeset h1 {
+  font-size: 2.4em !important;
+  font-weight: bold;
+  line-height: 1.2 !important;
+  color: #3a506b; /* Steel Blue */
+}
+
+/* Section Titles in Slate Gray */
+.md-content h2, .md-typeset h2 {
+  font-size: 2em !important;
+  font-weight: bold;
+  line-height: 1.3 !important;
+  color: #6c757d; /* Slate Gray */
+}
+
+/* Subsection Titles in Dark Slate Blue */
+.md-content h3, .md-typeset h3 {
+  font-size: 1.6em !important;
+  font-weight: bold;
+  line-height: 1.4 !important;
+  color: #495867; /* Dark Slate Blue */
+}
+
+/* Tabs Menu Font Size */
+/* Adjust the top navigation bar and tab menu font sizes */
+/* Top navigation bar */
+.md-header__title, .md-header-nav__link, .md-tabs__link {
+  font-size: 2.5em !important;
+  font-weight: 500;
+}
+
+.md-tabs__link {
+  font-size: 2em !important;
+}
+
+/* For bold text to ensure size and readability */
+.md-content strong, .md-typeset strong,
+.md-content b, .md-typeset b {
+  font-size: 1.2em !important;
+  font-weight: 600 !important;
+  color: inherit; /* Keeps bold text color consistent with main content */
+}
+
+/* General paragraph font size */
+.md-content p {
+  font-size: 1.1em !important; /* Adjust as needed */
+  line-height: 1.6 !important;
+}
+
+/* Code blocks */
+pre {
+  font-family: 'Fira Code', monospace;
+}
+
+/* Override specific colors to be theme-aware */
+.md-content a {
+  color: var(--md-accent-fg-color); /* Adapts link color to theme */
+  text-decoration: none;
+}
+
+.md-content a:hover {
+  text-decoration: underline;
+}
