@@ -15,7 +15,7 @@
 
 /* Main Title in Steel Blue */
 .md-content h1, .md-typeset h1 {
-  font-size: 2.8em !important;
+  font-size: 2.4em !important;
   font-weight: bold;
   line-height: 1.2 !important;
   color: #3a506b; /* Steel Blue */
@@ -23,7 +23,7 @@
 
 /* Section Titles in Slate Gray */
 .md-content h2, .md-typeset h2 {
-  font-size: 2.4em !important;
+  font-size: 2em !important;
   font-weight: bold;
   line-height: 1.3 !important;
   color: #6c757d; /* Slate Gray */
@@ -31,7 +31,7 @@
 
 /* Subsection Titles in Dark Slate Blue */
 .md-content h3, .md-typeset h3 {
-  font-size: 2em !important;
+  font-size: 1.6em !important;
   font-weight: bold;
   line-height: 1.4 !important;
   color: #495867; /* Dark Slate Blue */
